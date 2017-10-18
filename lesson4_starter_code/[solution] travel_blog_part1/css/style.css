@@ -1,0 +1,143 @@
+/*
+How to create a folder and file in Sublime
+
+https://fonts.google.com/specimen/Lato?selection.family=Lato:300,700
+
+
+yellow: #F9D483
+light: #D2D2D2
+dark: #000000
+*/
+
+/*
+	This is how you can write a comment.
+*/
+
+/* GLOBAL */
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #D2D2D2;
+}
+
+a{
+	color: #F9D483;
+}
+
+/* SITE */
+.site{
+	width: 600px;
+	/* How to center something */
+	margin: 0 auto;
+}
+/* HEADER */
+header.north {
+	margin: 0 0 75px 0;
+}
+header.north h1{
+	font-size: 50px;
+	margin: 0 0 10px 0;
+}
+header.north h1 a{
+	text-decoration: none;
+}
+header.north h2{
+	color: #000000;
+	font-size: 26px;
+	margin: 0 0 20px 0;
+}
+header.north nav{
+	margin: 0 0 20px 0;
+}
+header.north nav a{
+	color: #D2D2D2;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid #D2D2D2;
+	margin: 0 0 0 15px;
+}
+header.north nav a:first-child{
+	margin-left: 0;
+}
+header.north nav a:hover{
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+
+/* POST */
+article.post{
+	margin: 0 0 25px 0;
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid #D2D2D2;
+}
+article.post h3,
+article.post h2{
+	font-size: 26px;
+}
+article.post h3{
+	margin: 0 0 10px 0;
+}
+article.post h2{
+	/* Why this doesn't work.
+	color: #000000;
+	*/
+	margin: 0 0 20px 0;
+}
+article.post h2 a{
+	color: #000000;
+	text-decoration: none;
+}
+article.post h2 a:hover{
+	color: #F9D483;
+}
+article.post img{
+	max-width: 100%;
+}
+article.post p{
+	color: #000000;
+	font-size: 16px;
+	line-height: 26px;
+}
+article.post h4{
+	padding: 10px 0;
+	text-align: right;
+	font-weight: 700;
+}
+article.post h4 a{
+	text-decoration: none;
+}
+article.post h4 a:hover{
+	text-decoration: underline;
+}
+
+/* FOOTER */
+footer.south{
+	padding: 25px 0;
+}
+footer.south nav{
+	margin: 0 0 10px 0;
+}
+footer.south nav a{
+	color: #F9D483;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0 5px;
+	border-left: 1px solid #D2D2D2;
+	/* Why this? */
+	border-right: 1px solid transparent;
+	margin: 0;
+}
+footer.south nav a:hover{
+	color: #000000;
+}
+footer.south nav a:first-child{
+	padding-left: 0;
+	border-left: 0;
+}
+footer.south p.copyright{
+	font-size: 14px;
+	line-height: 14px;
+}

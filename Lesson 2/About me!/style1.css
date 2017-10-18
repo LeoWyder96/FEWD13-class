@@ -1,0 +1,14 @@
+body {
+	background-color: #FFFAF0;
+	font-family: Verdana;
+	text-align: center;
+	font-size: 30px
+}
+li {
+	text-align: center;
+	padding: 40px;
+}
+a {
+	text-decoration: none;
+	padding: 40px;
+}

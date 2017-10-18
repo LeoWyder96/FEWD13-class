@@ -1,0 +1,172 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS:
+
+    White - #ffffff
+    Light Grey -
+    Dark Grey -
+    Grey/Black(text color) -
+    Yellow -
+    Red -
+*/
+
+
+/* Global
+   ================================================================ */
+
+
+/* Layout
+   ================================================================ */
+
+
+/* Headings
+   ================================================================ */
+body {
+
+}
+header {
+  background: black;
+  width: 100%;
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  min-width: 1080px;
+  max-height: 150px;
+
+}
+header h1 {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+  float: left;
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-decoration: none;
+}
+.navi {
+  width: 570px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.navi li {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  float: right;
+}
+.header_el
+{
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.tagline {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  clear: both;
+  background-color: #D7E0DB;
+  font-style: italic;
+}
+.above {
+  z-index: 10;
+}
+.coworking {
+ z-index: 1;
+}
+.blurb {
+  position: absolute;
+  top: 30%;
+  left: 72%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  float: right;
+  width: 400px;
+  background-color: #D7E0DB;
+}
+img {
+  width: 100%;
+  height: 659px;
+  border: 1px solid black;
+}
+header strong {
+  font-family: 'Oswald', sans-serif;
+}
+.button {
+  background: red;
+  color: white;
+  padding: 20px 119px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.info_box{
+  width: 33.3%;
+  display: inline;
+  float: left;
+  padding: 10px 10px;
+  border-left: 1px solid #D2D2D2;
+  border-right: 1px solid transparent;
+  margin: 0px;
+}
+footer {
+  background: grey;
+}
+.button_bottom
+{
+   background: #D7E0DB;
+  color: black;
+  padding: 8px 27px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Text Styles
+   ================================================================ */
+
+
+
+/* Header
+   ================================================================ */
+
+
+
+/* Footer
+   ================================================================ */
+
+
+
+/* Navigation
+   ================================================================ */
+
+
+
+/* Buttons
+   ================================================================ */

@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-weight: 600;
+  font-family: Cookie, sans-serif;
+}
+
+img {
+  display: block;
+  width: 450px;
+  margin-bottom: 0;
+}
+
+.overlay p {
+  text-align: center;
+  font-size: 120px;
+  margin: 0;
+  line-height: 257px;
+  color: white;
+}
+
+
+
+/* Let's position things! */
+/* Relative */
+.overlay-wrapper {
+  position: relative;
+  width: 450px;
+  margin: 100px auto 50px;
+}
+
+/* Absolute */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+/* Fixed */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ccc;
+  border-bottom: 2px solid #bbb;
+}
+
+
+
