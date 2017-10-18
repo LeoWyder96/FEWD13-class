@@ -7,3 +7,20 @@
   clear: both;
   content: "";
 }
+body {
+font-family: 'Roboto Slab', serif;
+background:RGBA(73, 61, 89, 1.00);
+}
+.north {
+
+}
+.icon {
+	border: 1px solid RGBA(255, 208, 101, 1.00);
+	padding: 15px;
+	margin: 0 auto;
+}
+.icon-inner {
+	background: RGBA(255, 208, 101, 1.00);
+	width: 50px;
+	height: 50px;
+}
