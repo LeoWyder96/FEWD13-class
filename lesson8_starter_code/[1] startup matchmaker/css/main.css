@@ -202,3 +202,37 @@ header nav strong {
 .info:last-of-type {
   border-right: none;
 }
+@media screen and (max-width: 780px) {
+  nav{
+    padding:0;
+    margin: 0 auto;
+    width: 100%;
+  }
+  nav li {
+    float: none;
+    text-align: center;
+  }
+   nav li a{
+    display: block;
+    text-align: center
+   }
+  h1 {
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .blurb{
+    width: 100%;
+    margin: 0;
+  }
+  .banner {
+    padding: 0;
+  }
+  .info {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+  }
+}

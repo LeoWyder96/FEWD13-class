@@ -48,6 +48,8 @@ p:last-child{
 /* Layout */
 .site{
 	padding: 20px;
+	width: 1200px;
+	margin:0 auto;
 }
 
 /*
@@ -129,6 +131,57 @@ A few notes to consider as we build this together...
 .features{
 
 }
+.features .features-colum {
+float: left;
+width: 25%;
+padding: 10px;
+}
+.features .features-colum .features-colum-box {
+	border: 1px solid black;
+	padding: 10px;
+}
+
 .south{
 
+}
+
+.features .features-colum .features-colum-box {
+
+}
+/*medium*/
+@media screen and (max-width: 1200px) {
+	.site{
+		width:100%;
+		margin:0;
+	}
+	.features .features-colum {
+		width: 50%;
+	}
+}
+/*small*/
+@media screen and (max-width: 768px) {
+	.logo{
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.main-navigation {
+		float:none;
+		width: 100%;
+	}
+	.main-navigation ul li{
+		float:none;
+		width: 100%;
+		display: block;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+	.main-navigation ul li:last-child {
+		margin-bottom: 0;
+	}
+	.features .features-colum {
+	float: none;
+	width: 100%;
+	padding: 5px 10px;
+	}
 }
