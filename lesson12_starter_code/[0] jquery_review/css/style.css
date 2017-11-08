@@ -1,0 +1,55 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+div {
+     display: inline-block;
+     width: 200px;
+     height: 200px;
+     background-color: #EC4945;
+     border-radius: 50%;
+}
+
+ul {
+     margin-bottom: 2000px;
+}
+
+
+/*This probably looks foreign now, but we'll get there! Just a taste of what's to come.*/
+@-webkit-keyframes party-time {
+  0%   { background-color: #EC4945; }
+  100% { background-color: #FBDC3C; }
+}
+@keyframes party-time {
+  0%   { background-color: #EC4945; }
+  100% { background-color: #FBDC3C; }
+}
+
+
+.party {
+     /*This probably looks foreign now, but we'll get there! Just a taste of what's to come.*/
+     -webkit-animation: party-time 300ms infinite;
+     animation: party-time 300ms infinite; /* IE 10+, Fx 29+ */
+}
+
+.circle-two {
+     background-color: #FBDC3C;
+     display: none;
+}
+
+
